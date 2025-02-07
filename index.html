@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Report</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Student Marks Calculator</h1>
+        <br>
+
+        <form>
+          <!---  <h4>Enter Your Name</h4>  --->
+    
+            <label for="studentname">Student Name</label>
+            <input type="text" id="studentname" pattern="[A-Za-z]" title="alphabets only" placeholder="Please Enter Your Name" required>
+            <br>
+
+         <!---   <h4>Enter Your Marks</h4> --->
+            <label for="subject1">Physics</label>
+            <input type="number" id="marks" min="0" max="100" placeholder="Marks out of 100" required>
+            <br>
+            <label for="subject2">Chemistry</label>
+            <input type="number" id="marks" min="0" max="100" placeholder="Marks out of 100" required>
+            <br>
+            <label for="subject3">Math</label>
+            <input type="number" id="marks" min="0" max="100" placeholder="Marks out of 100" required>
+            <br>
+            <label for="subject4">English</label>
+            <input type="number" id="marks" min="0" max="100" placeholder="Marks out of 100" required>
+            <br>
+            <label for="subject5">Physical Education</label>
+            <input type="number" id="marks", min="0" max="100" placeholder="Marks out of 100" required>
+            <br><br>
+
+            <button type="submit">Submit</button>
+        
+        </form>
+    </div>
+            <br><br>
+
+            <div class="abc">
+
+            <table border="2">
+                <thead>
+                    
+                <tr>
+                    <th colspan="7">
+                        <h3>Students Report</h3>
+                    </th>
+                </tr>
+                    <tr>
+                    <th>Student Name</th>
+                    <th>Physics</th>
+                    <th>Chemistry</th>
+                    <th>Math</th>
+                    <th>English</th>
+                    <th>Physical Education</th>
+                    <th>Average Score</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+        </div> 
+</div>
+</body>
+</html>
